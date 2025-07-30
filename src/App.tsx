@@ -19,11 +19,11 @@ const App = () => {
           <h4 className="text-[30px] text-green-800">
             Financial Clarity You can Trust
           </h4>
-          <p className="text-[14px] font-semibold text-green-800 lg:text-[25px]">
+          <p className="text-[16px] font-semibold text-green-800 lg:text-[25px]">
             Trusted financial guidance for every stage of life and business
             since 1987
           </p>
-          <button className="px-5 py-3 rounded-xl bg-[#2E4F21] text-[10px] mt-4 text-white">
+          <button className="px-5 py-3 rounded-xl bg-[#2E4F21] text-[12px] mt-4 text-white">
             Connect with our experts
           </button>
         </div>
@@ -31,7 +31,7 @@ const App = () => {
           <img
             src={imggg}
             alt="finance hero"
-            className="w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]"
+            className="w-[300px] h-[300px] lg:w-[400px] lg:h-[400px]"
           />
         </div>
       </div>
