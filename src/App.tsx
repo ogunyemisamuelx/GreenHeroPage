@@ -14,8 +14,8 @@ const App = () => {
           </div>
         </div>
       </header>
-      <div className="w-full flex justify-between p-4 h-[calc(100vh-80px)] items-center flex-col lg:flex  lg:flex-row">
-        <div className="mt-10">
+      <div className="w-full flex flex-col lg:flex-row items-center justify-center p-4 gap-6">
+        <div className="mt-6 text-center lg:text-left">
           <h4 className="text-[30px] text-green-800">
             Financial Clarity You can Trust
           </h4>
@@ -27,10 +27,10 @@ const App = () => {
             Connect with our experts
           </button>
         </div>
-        <div className=" mb-10">
+        <div className="mb-10">
           <img
             src={imggg}
-            alt=""
+            alt="finance hero"
             className="w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]"
           />
         </div>
